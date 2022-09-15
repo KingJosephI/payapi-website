@@ -204,4 +204,23 @@ header ul a:hover {
   font-size: 1rem;
   line-height: 1.87rem;
   color: #6c8294;
+}
+
+.simple-ui {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: url("../../assets/shared/desktop/bg-pattern-circle.svg");
+  background-repeat: no-repeat;
+  background-position: center right -20rem;
+  padding: 5rem 11rem;
+}
+.simple-ui h3 {
+  color: #36536b;
+}
+.simple-ui p {
+  padding: 2.73rem 0;
+  font-size: 1rem;
+  line-height: 1.87rem;
+  color: #6c8294;
 }/*# sourceMappingURL=index.css.map */
