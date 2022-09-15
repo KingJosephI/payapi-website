@@ -223,4 +223,8 @@ header ul a:hover {
   font-size: 1rem;
   line-height: 1.87rem;
   color: #6c8294;
+}
+
+.features {
+  display: flex;
 }/*# sourceMappingURL=index.css.map */
