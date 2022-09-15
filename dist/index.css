@@ -189,4 +189,19 @@ header ul a:hover {
 }
 .who-we-work > div:nth-child(2) img {
   width: 6.5rem;
+}
+
+.easy-to-implement {
+  display: flex;
+  align-items: center;
+  padding-top: 10rem;
+}
+.easy-to-implement h3 {
+  color: #36536b;
+}
+.easy-to-implement p {
+  padding: 2.73rem 0;
+  font-size: 1rem;
+  line-height: 1.87rem;
+  color: #6c8294;
 }/*# sourceMappingURL=index.css.map */
