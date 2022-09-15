@@ -22,7 +22,8 @@ header {
     }
 
     a {
-      text-decoration: none;
+      @include reset-anchor;
+      
     }
   }
 }
