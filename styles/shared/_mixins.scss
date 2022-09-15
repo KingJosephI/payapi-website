@@ -1,5 +1,9 @@
 @mixin reset-anchor {
   text-decoration: none;
   font-weight: 700;
-  color: $san-juan-blue;
+  color: $light-san-juan-blue;
+
+  &:hover {
+    color: $san-juan-blue;
+  }
 }
