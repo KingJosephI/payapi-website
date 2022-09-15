@@ -12,9 +12,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #EDF3F8;
+  background-image: url("../../assets/shared/desktop/bg-pattern-circle.svg");
+  background-repeat: no-repeat;
+  background-position: top -10rem right -7rem;
 }
 body header, body main, body footer {
   max-width: 1440px;
+  padding: 0 11rem 0;
 }
 
 h1, h2, h3, h4 {
@@ -39,7 +44,7 @@ h4 {
 
 header {
   display: flex;
-  padding: 3.13rem 11rem 0;
+  padding: 3.13rem 11rem 0 !important;
   width: 100%;
 }
 header nav {
@@ -63,10 +68,13 @@ header ul .schedule-demo-button {
   background-color: #ba4270;
   border-radius: 2rem;
   padding: 1rem 2rem;
+  font-weight: 700;
+  font-size: 1rem;
 }
 header ul .schedule-demo-button:hover {
   color: #fbfcfe;
   background-color: #da6d97;
+  cursor: pointer;
 }
 header ul a {
   text-decoration: none;
@@ -76,4 +84,58 @@ header ul a {
 }
 header ul a:hover {
   color: #36536b;
+  cursor: pointer;
+}
+
+.hero {
+  padding: 5.13rem 0;
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+.hero > div:first-child {
+  max-width: 36.4rem;
+}
+.hero__title {
+  margin-top: -5rem;
+  line-height: 4.8rem;
+  padding-bottom: 1.4rem;
+  color: #36536b;
+  font-weight: normal;
+}
+.hero input {
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  border: none;
+  width: 29.67rem;
+}
+.hero button {
+  border: none;
+  color: #fbfcfe;
+  background-color: #ba4270;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  font-weight: 700;
+  font-size: 1rem;
+  margin-left: -12rem;
+}
+.hero button:hover {
+  color: #fbfcfe;
+  background-color: #da6d97;
+  cursor: pointer;
+}
+.hero button + div {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  color: #6c8294;
+}
+.hero button + div a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #6c8294;
+}
+.hero button + div a:hover {
+  color: #36536b;
+  cursor: pointer;
 }/*# sourceMappingURL=index.css.map */
