@@ -1,3 +1,20 @@
 .features {
   display: flex;
+  gap: 2rem;
+   div {
+    text-align: center;
+   }
+
+
+   h4{
+    color: $san-juan-blue;
+    font-size: 1.2rem;
+    padding: 38px 0 28px 0;
+   }
+
+   p{
+    font-size: 1rem;
+    color: $light-san-juan-blue;
+    line-height: 1.67rem ;
+   }
 }
