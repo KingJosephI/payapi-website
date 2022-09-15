@@ -1,7 +1,7 @@
 header {
   display: flex;
   padding: 3.13rem 11rem 0;
-
+  width: 100%;
 
   nav{
     width: 100%;
@@ -17,8 +17,12 @@ header {
     gap: 2.67rem;
     width: 100%;
 
-    .demo-button{
+    li.last {
       margin-left:  auto;
+    }
+
+    .schedule-demo-button{
+      @include demo-button;
     }
 
     a {

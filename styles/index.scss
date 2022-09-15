@@ -1,18 +1,10 @@
+@import './shared/common';
 @import './shared/fonts';
 @import './shared/colors';
 @import './shared/mixins';
 @import './homepage/header';
 
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-body {
-  font-size: 15px;
-  font-family: 'Public Sans', sans-serif;
-}
 
 

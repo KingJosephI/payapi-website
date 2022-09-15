@@ -1,9 +1,25 @@
 @mixin reset-anchor {
   text-decoration: none;
   font-weight: 700;
+  font-size: 1rem;
   color: $light-san-juan-blue;
 
   &:hover {
     color: $san-juan-blue;
   }
 }
+
+
+@mixin demo-button {
+  border: none;
+  color: $link-water-white;
+  background-color: $dark-pink;
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+
+  &:hover {
+    color: $link-water-white;
+    background-color: $charm-pink;
+  }
+}
+
