@@ -16,26 +16,6 @@
     font-weight: normal;
   }
 
-  input {
-    border-radius: 2rem;
-    padding: 1rem 2rem;
-    border: none;
-    width: 29.67rem;
-  }
-
-  button {
-    @include demo-button;
-    margin-left: -12rem;
-
-    & + div {
-      padding-top: 1rem;
-      padding-left: 1rem;
-      color: $light-san-juan-blue;
-
-      a {
-        @include reset-anchor;
-      }
-    }
-  }
+  @include schedule-form-style;
 
 }

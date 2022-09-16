@@ -1,0 +1,12 @@
+.ready-to-start{
+  display: flex;
+  justify-content: space-between;
+  padding: 6.67rem 11rem;
+
+  h3 {
+    color: $san-juan-blue;
+    font-size: 3.73rem;
+  }
+  
+  @include schedule-form-style;
+}

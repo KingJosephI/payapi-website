@@ -1,0 +1,55 @@
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $mirage-blue;
+  width: 100%;
+  padding: 2.93rem 11rem;
+
+  div:first-child {
+    display: flex; 
+
+    nav {
+      padding-left: 2rem;
+    }
+
+    ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 2rem;
+
+    a {
+      text-decoration: none;
+      color: $light-san-juan-blue;
+      font-weight: 700;
+      font-size: 1rem;
+
+      &:hover {
+        cursor: pointer;
+        color: $link-water-white;
+      }
+    }
+  }
+  }
+
+ 
+
+  i {
+    font-size: 1.6rem;
+    color: $link-water-white;
+
+    &:not(:last-of-type){
+      margin-right: 1rem;
+    }
+
+    &:hover {
+      cursor: pointer;
+      color: $charm-pink;
+    }
+
+
+  }
+}
